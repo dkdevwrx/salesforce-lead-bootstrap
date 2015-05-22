@@ -1,4 +1,4 @@
-# salesforce-lead-zurb
+# salesforce-lead-bootstrap
 Uses Twitter Bootstrap with a Salesforce Lead form
 
 Also added ParsleyJS validation to require fields to be filled in with 'parsley-required="true"' on each input and make sure phone and email are in acceptable formats..

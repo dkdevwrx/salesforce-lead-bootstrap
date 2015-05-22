@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html class="no-js" lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Salesforce-lead-bootstrap by dkdevwrx</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Salesforce Lead Form Example</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://parsleyjs.org/src/parsley.css">
 	<style>
 	.table {
@@ -17,18 +18,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/garlic.js/1.2.2/garlic.min.js"></script>
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Salesforce-lead-bootstrap</h1>
-      <h2 class="project-tagline">Using Twitter Bootstrap with a Salesforce Lead form</h2>
-      <a href="https://github.com/dkdevwrx/salesforce-lead-bootstrap" class="btn">View on GitHub</a>
-      <a href="https://github.com/dkdevwrx/salesforce-lead-bootstrap/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/dkdevwrx/salesforce-lead-bootstrap/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
-
-    <section class="main-content">
-<h3>
-<a id="sample" class="anchor" href="#sample" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sample</h3>
-
 <div class="container" align="center">
         <form name="leadform" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" data-persist="garlic" parsley-validate>
             <input type=hidden name="oid" value="YOURORGID">
@@ -157,7 +146,5 @@
 			<input type="submit" name="submit" class="small round button">
         </form>
     </div>
-    </section>
   </body>
 </html>
-
